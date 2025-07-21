@@ -61,3 +61,5 @@ See scripts for sub-directory labels.
 **Note:** All of these files must be within your working directory for
 the analysis to work. Analyses were done in parallel. Therefore,
 you will need to adjust the settings accordingly.
+
+![graphical abstract](Graphical_Abstract.jpg)
