@@ -20,6 +20,7 @@
 
 # RStudio files
 .Rproj.user/
+*.Rproj
 
 # produced vignettes
 vignettes/*.html
@@ -47,3 +48,11 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# GIS folder (can get too big)
+GIS
+
+# Mac Files
+.DS_Store
+
+
