@@ -3,7 +3,7 @@ source("./Scripts/TurkeyMultiOccu_package_load.R")
 
 
 #my_mod <- readRDS("./Results/2024-10-18_auto_occu_model_results.rds")
-#my_mod_reduced <- readRDS("./Results/2025-07-18_reduced_model_summary.csv")
+#my_mod_reduced <- readRDS("./Results/2025-07-21_reduced_model_summary.csv")
 #scaled_covs <- read.csv("./Data/2024-10-17_scaled_covariates.csv")
 #covs <- read.csv("./Data/2024-10-17_covariates.csv")
 
@@ -171,7 +171,7 @@ layout_mat <- matrix(1:4, nrow = 2, ncol = 2, byrow = TRUE)
        ylim = c(0,1), xlim = c(0, 1), xlab = "", ylab = "",
        xaxt = "n", col="black", bty = "n", las = 1)
   axis(1, at = seq(0,1,0.2))
-  mtext("Proportion of habitat in 1-km buffer", side = 1, line = 2.25, 
+  mtext("Vegetation cover in 1-km buffer", side = 1, line = 2.25, 
         font = 1, cex = 0.75)
   
   polygon(c(seq(0,1,0.01),rev(seq(0,1,0.01))), 
