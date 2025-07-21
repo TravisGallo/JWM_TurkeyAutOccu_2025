@@ -1,5 +1,6 @@
 # R script, JAGS models, and data used to fit an autologistic occupancy model for wild turkey in Washington, D.C. USA
-# Mammals adjust diel activity across gradients of urbanization
+
+# Returning Neighbors: Eastern Wild Turkey (Meleagris gallopavo silvestris) Occupancy in an Urban Landscape
 
 # **Authors**
 
@@ -35,7 +36,7 @@ autologistic occupancy model
 multi-season autologistic occupancy model using only the 11 variables that remained
 after the variable selection procedure
 
-## **Data Files:**
+## **Directories and Data Files:**
 
 **Data/TurkeyOccupancyReport.csv** - Detection data of wild turkey in Washington, D.C.
 This data is read into `Scripts/2025-07-21_landscape_variables.R` and 
@@ -61,5 +62,7 @@ See scripts for sub-directory labels.
 **Note:** All of these files must be within your working directory for
 the analysis to work. Analyses were done in parallel. Therefore,
 you will need to adjust the settings accordingly.
+
+##
 
 ![graphical abstract](Graphical_Abstract.jpg)
